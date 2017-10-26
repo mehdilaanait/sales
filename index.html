@@ -150,7 +150,7 @@ d3.json("sales.json", function(sales) {
 
   // Add a title.
   dot.append("title")
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.Customer_Segment; });
 
   // Add an overlay for the year label.
   var box = label.node().getBBox();
