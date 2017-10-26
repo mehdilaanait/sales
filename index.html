@@ -70,7 +70,7 @@ text {
 function x(d) { return d.Sales; }
 function y(d) { return d.Profit; }
 function radius(d) { return d.Discount; }
-function color(d) { return d.region; }
+function color(d) { return d.Region; }
 function key(d) { return d.Customer_Segment; }
 
 // Chart dimensions.
@@ -228,11 +228,11 @@ d3.json("sales.json", function(sales) {
   function interpolateData(year) {
     return sales.map(function(d) {
       return {
-        name: d.name,
-        region: d.region,
-        income: interpolateValues(d.income, year),
-        population: interpolateValues(d.population, year),
-        lifeExpectancy: interpolateValues(d.lifeExpectancy, year)
+        name: d.Customer_Segment,
+        region: d.Region,
+        income: interpolateValues(d.Sales, Year),
+        population: interpolateValues(d.Discount, Year),
+        lifeExpectancy: interpolateValues(d.Profit, Year)
       };
     });
   }
