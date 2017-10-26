@@ -228,11 +228,11 @@ d3.json("sales.json", function(sales) {
   function interpolateData(year) {
     return sales.map(function(d) {
       return {
-        name: d.Customer_Segment,
-        region: d.Region,
-        income: interpolateValues(d.Sales, Year),
-        population: interpolateValues(d.Discount, Year),
-        lifeExpectancy: interpolateValues(d.Profit, Year)
+        Customer_Segment: d.Customer_Segment,
+        Region: d.Region,
+        Sales: interpolateValues(d.Sales, Year),
+        Discount: interpolateValues(d.Discount, Year),
+        Profit: interpolateValues(d.Profit, Year)
       };
     });
   }
