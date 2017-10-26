@@ -67,11 +67,11 @@ text {
 <script>
 
 // Various accessors that specify the four dimensions of data to visualize.
-function x(d) { return d.income; }
-function y(d) { return d.lifeExpectancy; }
-function radius(d) { return d.population; }
+function x(d) { return d.Sales; }
+function y(d) { return d.Profit; }
+function radius(d) { return d.Discount; }
 function color(d) { return d.region; }
-function key(d) { return d.name; }
+function key(d) { return d.Customer_Segment; }
 
 // Chart dimensions.
 var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
@@ -112,7 +112,7 @@ svg.append("text")
     .attr("text-anchor", "end")
     .attr("x", width)
     .attr("y", height - 6)
-    .text("income per capita, inflation-adjusted (dollars)");
+    .text("Sales");
 
 // Add a y-axis label.
 svg.append("text")
@@ -121,7 +121,7 @@ svg.append("text")
     .attr("y", 6)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
-    .text("life expectancy (years)");
+    .text("Profit");
 
 // Add the year label; the value is set on transition.
 var label = svg.append("text")
