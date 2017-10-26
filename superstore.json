@@ -1,0 +1,86 @@
+[
+  {
+    "id": "Superstore",
+    "value": ""
+  },
+  {
+    "id": "Superstore.Furniture",
+    "value": ""
+  },
+  {
+    "id": "Superstore.Furniture.Bookcases",
+    "value": 868
+  },
+  {
+    "id": "Superstore.Furniture.Chairs",
+    "value": 2356
+  },
+  {
+    "id": "Superstore.Furniture.Furnishings",
+    "value": 3563
+  },
+  {
+    "id": "Superstore.Furniture.Tables",
+    "value": 1241
+  },
+  {
+    "id": "Superstore.Office Supplies",
+    "value": ""
+  },
+  {
+    "id": "Superstore.Office Supplies.Appliances",
+    "value": 1729
+  },
+  {
+    "id": "Superstore.Office Supplies.Art",
+    "value": 3000
+  },
+  {
+    "id": "Superstore.Office Supplies.Binders",
+    "value": 5974
+  },
+  {
+    "id": "Superstore.Office Supplies.Envelopes",
+    "value": 906
+  },
+  {
+    "id": "Superstore.Office Supplies.Fasteners",
+    "value": 914
+  },
+  {
+    "id": "Superstore.Office Supplies.Labels",
+    "value": 1400
+  },
+  {
+    "id": "Superstore.Office Supplies.Paper",
+    "value": 5178
+  },
+  {
+    "id": "Superstore.Office Supplies.Storage",
+    "value": 3158
+  },
+  {
+    "id": "Superstore.Office Supplies.Supplies",
+    "value": 647
+  },
+  {
+    "id": "Superstore.Technology",
+    "value": ""
+  },
+  {
+    "id": "Superstore.Technology.Accessories",
+    "value": 2976
+  },
+  {
+    "id": "Superstore.Technology.Copiers",
+    "value": 234
+  },
+  {
+    "id": "Superstore.Technology.Machines",
+    "value": 440
+  },
+  {
+    "id": "Superstore.Technology.Phones",
+    "value": 3289
+  }
+]
